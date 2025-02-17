@@ -2,7 +2,7 @@ const heroText = document.querySelector(".hero-text");
 const heroThumbnailsDiv = document.querySelectorAll(".thumbnails .thumb-img");
 const splashTimeout = 3500;
 
-// for splash screen page 
+// for splash screen page text
 gsap.to(".back-text tspan", {
   strokeDashoffset: "0",
   duration: 3,
