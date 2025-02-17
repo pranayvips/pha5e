@@ -427,7 +427,9 @@ nav .nav-link{
 
 }
 @media screen and (max-width : 600px){
-
+    .splash-screen svg text, .splash-screen svg text tspan {
+        font-size: 6rem;
+    }
     .thumbnails .thumb-img {
         width: 40vw;
         height: 20vh;
