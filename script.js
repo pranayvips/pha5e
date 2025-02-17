@@ -9,6 +9,7 @@ gsap.to(".back-text tspan", {
   stagger: 0.1,
   delay: 1
 });
+document.body.scrollTop = document.documentElement.scrollTop = 0;
 document.body.classList.toggle("no-scroll");
 setTimeout(() => {
     document.body.classList.toggle("no-scroll");
