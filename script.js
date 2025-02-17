@@ -1,11 +1,11 @@
 const heroText = document.querySelector(".hero-text");
 const heroThumbnailsDiv = document.querySelectorAll(".thumbnails .thumb-img");
-const splashTimeout = 1;
+const splashTimeout = 3500;
 
 // for splash screen page 
 gsap.to(".back-text tspan", {
   strokeDashoffset: "0",
-  duration: 0,
+  duration: 3,
   stagger: 0.1,
   delay: 1
 });
@@ -127,7 +127,7 @@ setTimeout(() => {
           }
         });
       });
-}, 2000 + splashTimeout);
+}, 3200 + splashTimeout);
 
 // changing nav menu clicks
 //    M6 18 18 6M6 6l12 12    |  M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5
