@@ -99,7 +99,6 @@ setTimeout(() => {
             details.clientX > rect.right
           ) {
             insidePath = false;
-            console.log("idhar se hai");
             gsap.to(path.children[0], {
               top: (rect.height - imgHeight) / 2 + "px",
               left: rect.width - imgWidth + "px",
