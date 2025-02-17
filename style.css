@@ -15,7 +15,6 @@
     --text-font: "Area-Normal", Helvetica, Arial, sans-serif;
 }
 
-
 *{
     margin: 0;
     padding: 0;
@@ -75,7 +74,6 @@ nav .nav-menu path{
 nav .nav-link{
     transition: font-size .4s;
 }
-
 
 /* ================================================ HERO SECTION ========================================= */
 .home{
